@@ -20,6 +20,6 @@ app.get("/private-key", async (req, res) => {
     }
 });
 
-app.listen(8088, () => {
-    console.log("Server has started on port 8088");
+app.listen(5000, () => {
+    console.log("Server has started on port 5000");
 });
